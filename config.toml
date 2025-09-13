@@ -1,0 +1,38 @@
+baseURL = "https://RayAmidst.github.io/"
+languageCode = "en-us"
+title = "RayAmidst | CS & AI"
+theme= "PaperMod"
+
+[Services]
+  [Services.RSS]
+    Limit = 20
+
+[Privacy]
+  [Privacy.RSS]
+    disableDates = false
+
+[params]
+	author="BING Zhe"
+	description = "Blogs on CS, AI.."
+	keywords = ["tech", "ai", "ml"]
+	defaultTheme = "auto"
+	ShowReadingTime = true
+	ShowPostNavs = true
+
+[[menu.main]]
+	identifier = "home"
+	name = "Home"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	identifier = "posts"
+	name = "Posts"
+	url = "/posts/"
+	weight = 2
+
+[[menu.main]]
+	identifier = "tags"
+	name = "Tags"
+	url = "/tags/"
+	weight = 3
