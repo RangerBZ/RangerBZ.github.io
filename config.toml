@@ -18,6 +18,8 @@ theme= "PaperMod"
 	defaultTheme = "auto"
 	ShowReadingTime = true
 	ShowPostNavs = true
+	enableGoogleAnalytics = false
+	poweredByHugo = false
 
 [[menu.main]]
 	identifier = "home"
